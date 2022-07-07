@@ -1,0 +1,110 @@
+body{
+    padding: 50px 20px;
+    margin:0 auto;
+}
+@media (min-width:768px){
+    body{
+        padding-top:110px;
+        width: 1200px;
+    }
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+@media (min-width:768px){
+    .main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main h1{
+        margin-left:-135px;
+    }
+}
+.main__subtitle-container h2{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.main__subtitle-container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+@media(min-width:768px){
+    .main__subtitle-container p{
+        width:300px;
+    }
+}
+.team{
+    align-items:baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:100px;
+}
+.team__member__image-container{
+    justify-content: center;
+    display: flex;
+}
+
+.team__role{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    writing-mode: vertical-rl;
+}
+
+.team__name{
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width:768px){
+    .team__name{
+        margin-left:47px;
+    }
+}
+
+.team__member--mobile{
+    padding-top:100px;
+    align-self: flex-end;
+}
+@media (min-width:768px){
+    .team__member{
+        width: 400px;
+    }
+    .team__member img{
+        width:250px;
+    }
+    .team__member--mobile{
+        padding-top:0;
+        align-self: stretch;
+    }
+    .team__member--desktop{
+        padding-top:100px;
+        align-self: flex-end;
+    }
+}
+footer{
+    padding-top:100px;
+    text-align: center;
+}
+
+footer span{
+    font-family: 'Montserrat', sans-serif;
+    color:#a9a9a9;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
